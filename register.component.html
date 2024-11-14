@@ -1,0 +1,52 @@
+<!-- Navbar -->
+<header>
+    <div class="navbar">
+        <h1>Name Company</h1>
+        <nav>
+            <a href="./home.html">Trang chủ</a>
+            <a href="./schedule.html">Lịch chiếu</a>
+            <a href="./promotions.html">Khuyến mãi</a>
+            <a href="./contact.html">Liên hệ</a>
+            <a href="./careers.html">Tuyển dụng</a>
+            <button class="button">Đăng Nhập</button>
+            <button class="button">Đăng Ký</button>
+        </nav>
+    </div>
+</header>
+
+<!-- Đăng ký -->
+<div class="container">
+    <div class="form-box">
+        <form action="" name="Formfill" onsubmit="return validation()">
+            <h2>Đăng ký</h2>
+            <div class="input-box">
+                <i class='bx bxs-user'></i>
+                <input id="username" type="text" name="Username" placeholder="Tài khoản">
+            </div>
+            <div class="input-box">
+                <i class='bx bxs-envelope'></i>
+                <input type="email" name="Email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <i class='bx bxs-lock-alt'></i>
+                <input id="password" type="password" name="Password" placeholder="Mật khẩu">
+            </div>
+            <div class="input-box">
+                <i class='bx bxs-lock-alt'></i>
+                <input type="password" name="CPassword" placeholder="Nhập lại mật khẩu">
+            </div>
+            <div class="input-box">
+                <i class='bx bxs-lock-alt'></i>
+                <input type="phone" name="phone" placeholder="Số điện thoại
+                ">
+            </div>
+            <div class="button">
+                <input id="btn-signup" type="submit" value="Đăng ký" class="btn" onclick="validation()">
+            </div>
+            <div class="group">
+                <span><a href="./forgot_password.html">Quên mật khẩu</a></span>
+                <span><a href="./login.html">Đăng nhập</a></span>
+            </div>
+        </form>
+    </div>
+</div>
